@@ -1,0 +1,29 @@
+.post {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-items: start;
+    gap: 10px;
+    margin: 10px;
+}
+
+.text {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.image {
+    width: 50px;
+    border-radius: 50%;
+    background-image: linear-gradient(red, yellow, green);
+}
+
+.currentUsersPost {
+    grid-template-columns: 1fr auto;
+    justify-items: end;
+}
+
+.currentUsersPostText {
+    background-color: white;
+    grid-row: 1;
+}
